@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 int _putchar(char c);
 int print_number(int n);
@@ -53,6 +52,7 @@ format++;
 va_end(arguments_list);
 return (block_print);
 }
+
 /**
 *print_number - Prints an integer
 *@n: Integer to be printed
@@ -84,3 +84,4 @@ int _putchar(char c)
 {
 return (write(1, &c, 1));
 }
+

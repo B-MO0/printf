@@ -6,8 +6,9 @@
 #include <limits.h>
 #include <stdarg.h>
 #include <unistd.h>
+#include <string.h>
 
 int _printf(const char *format, ...);
 int print_number(int n);
-
+int _putchar(char c);
 #endif /** MAIN_H */
