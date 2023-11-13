@@ -1,7 +1,10 @@
 #include "main.h"
 
+
+int print_number(int n);
+
 /**
-*_printf - Custom printf function
+*_printf - printf function
 *@format: Format string
 *@...: Variable number of arguments
 *
@@ -57,7 +60,7 @@ block_print += print_number(num);
 format++;
 }
 va_end(arguments_list);
-return (block_print);
+return block_print;
 }
 
 /**
@@ -76,11 +79,11 @@ write(1, "-", 1);
 n = -n;
 count++;
 }
-if (n / 10)
+if (n >= 10)
 {
 count += print_number(n / 10);
 }
 digit = n % 10 + '0';
 write(1, &digit, 1);
-return (count + 1);
+return count + 1;
 }
