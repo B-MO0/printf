@@ -8,8 +8,5 @@
 #include <unistd.h>
 
 int _printf(const char *format, ...);
-int print_char(va_list arguments_list);
-int print_str(va_list arguments_list);
-int print_number(va_list arguments_list);
-int print_number_recursive(int n);
+int print_number(int n);
 #endif /** MAIN_H */
