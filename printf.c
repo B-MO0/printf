@@ -83,14 +83,5 @@ count += print_number(n / 10);
 }
 digit = n % 10 + '0';
 write(1, &digit, 1);
-return count + 1;
-}
-/**
-* main - test
-*
-*Return: always 0 
-*/
-int main()
-{
-return(0);
+return (count + 1);
 }
