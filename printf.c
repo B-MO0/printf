@@ -53,3 +53,7 @@ format++;
 va_end(arguments_list);
 return block_print;
 }
+int main()
+{
+return (0);
+}
