@@ -85,3 +85,7 @@ digit = n % 10 + '0';
 write(1, &digit, 1);
 return (count + 1);
 }
+int main(void)
+{
+return 0;
+}
